@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div
-      className="relative bg-black bg-opacity-40 bg-cover bg-no-repeat"
+      className="relative bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url(${require("../../assest/image/footerbg.jpg")})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(${require("../../assest/image/footerbg.jpg")})`,
       }}
     >
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20 mt-10 font-poppins">
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center text-white font-bebas text-xl mt-8 pb-10">
-          © 2023 A 53.45 Hug ᐧ 53.45 Hug
+          © 2023 All Rights Reserved
         </div>
       </div>
     </div>
