@@ -9,7 +9,7 @@ const Footer = () => {
       }}
     >
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20 mt-10 font-poppins">
-        <div className="text-center pt-10 text-white text-5xl font-bebas">
+        <div className="text-center pt-16 text-white text-5xl font-bebas">
           We ready to have you the best dining experiences
         </div>
 
