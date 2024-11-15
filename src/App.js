@@ -1,5 +1,6 @@
 // App.jsx
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import BookingForm from './components/layout/BookingForm';
 import Featured from './components/layout/Featured';
 import Navbar from './components/layout/Navbar';
 import Popular from './components/layout/Popular';
@@ -16,6 +17,7 @@ function App() {
         </Routes>
         <Featured />
         <Popular />
+        <BookingForm />
       </div>
     </Router>
   );

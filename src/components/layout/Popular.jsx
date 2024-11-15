@@ -29,8 +29,8 @@ const PopularFoodItems = () => {
     },
     {
       image: "/slider/slider4.png",
-      title: "Cuisine Chicken",
-      description: "Japanese Cuisine Chicken",
+      title: "Japanese Pasta",
+      description: "Japanese Cuisine Pasta",
     },
   ];
 
@@ -39,13 +39,13 @@ const PopularFoodItems = () => {
       style={{
         backgroundImage: `url(${require("../../assest/image/tomato.png")})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
+        backgroundSize: "auto 60%",
         backgroundPosition: "left",
         opacity: 0.95,
       }}
     >
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20 mt-10 font-poppins mb-10">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center mb-16">
           <div>
             <div className="text-red-500  mb-2">
               {" "}
@@ -99,7 +99,7 @@ const PopularFoodItems = () => {
           <Swiper
             modules={[Navigation]}
             navigation
-            slidesPerView={3}
+            slidesPerView={4}
             spaceBetween={30}
             className="mySwiper"
             ref={swiperRef}
