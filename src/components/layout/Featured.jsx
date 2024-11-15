@@ -22,18 +22,9 @@ const Featured = () => {
   const [activeTab, setActiveTab] = useState("about");
 
   return (
-    <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20 mt-10 font-poppins mb-10">
+    <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20 mt-10 font-poppins mb-5 lg:mb-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Left side - Image */}
         <div className="relative">
-          <div className="absolute top-4 left-4 bg-white rounded-full px-4 py-2 flex items-center gap-2 z-10 shadow-lg">
-            <span className="text-2xl font-bold">50+</span>
-            <span className="text-sm">
-              Market
-              <br />
-              Experiences
-            </span>
-          </div>
           <img
             src="/feature1.png"
             alt="Featured"

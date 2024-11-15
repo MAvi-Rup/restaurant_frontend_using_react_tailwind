@@ -21,7 +21,7 @@ const BookingForm = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20 mt-10 font-poppins mb-10">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-20 mt-10 font-poppins mb-5 lg:mb-10">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
           <div className="pt-20">
             <div className="text-red-500 mb-2">
