@@ -99,7 +99,7 @@ const ReviewSection = () => {
         >
           {reviews.map((review, index) => (
             <SwiperSlide key={index}>
-              <div className="grid grid-flow-col grid-cols-2 gap-0 w-full">
+              <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2  gap-0 w-full">
                 <div className="bg-yellow-500 relative w-full h-full pt-8 pl-6">
                   <div className="p-10">
                     <p className="text-black h-full flex items-center">

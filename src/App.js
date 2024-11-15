@@ -2,6 +2,7 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import BookingForm from './components/layout/BookingForm';
 import Featured from './components/layout/Featured';
+import Footer from './components/layout/Footer';
 import Navbar from './components/layout/Navbar';
 import Popular from './components/layout/Popular';
 import ReviewSection from './components/layout/ReviewSection';
@@ -20,6 +21,7 @@ function App() {
         <Popular />
         <BookingForm />
         <ReviewSection />
+        <Footer />
       </div>
     </Router>
   );
