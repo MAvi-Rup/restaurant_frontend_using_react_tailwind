@@ -4,6 +4,7 @@ import BookingForm from './components/layout/BookingForm';
 import Featured from './components/layout/Featured';
 import Navbar from './components/layout/Navbar';
 import Popular from './components/layout/Popular';
+import ReviewSection from './components/layout/ReviewSection';
 import Home from './pages/Home';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Featured />
         <Popular />
         <BookingForm />
+        <ReviewSection />
       </div>
     </Router>
   );
