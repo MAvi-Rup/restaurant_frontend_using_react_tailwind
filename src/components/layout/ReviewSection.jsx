@@ -115,7 +115,7 @@ const ReviewSection = () => {
                   <img
                     src={FlowerIcon}
                     alt="Flower Icon"
-                    className="absolute bottom-0 -left-5 w-24 h-24"
+                    className="absolute bottom-0 -left-6 w-24 h-24"
                   />
                 </div>
                 <div className="relative w-full h-full">

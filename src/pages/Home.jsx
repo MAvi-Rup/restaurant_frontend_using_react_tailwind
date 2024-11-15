@@ -39,7 +39,7 @@ const HeroSection = () => {
 
             {/* Right Content - Image */}
             <div className="md:w-1/2 mt-10 md:mt-0 relative">
-              <div className=" absolute -top-8 -right-8">
+              <div className=" absolute -top-6 -right-4 lg:-right-8 lg:-top-8">
                 <img src=" /star.png" alt="" />
               </div>
               <img
@@ -48,7 +48,7 @@ const HeroSection = () => {
                 className="rounded-lg shadow-2xl"
               />
               {/* Today's Offer Badge */}
-              <div className="absolute -bottom-5 -right-5 bg-yellow-400 rounded-full p-2">
+              <div className="absolute -bottom-5 -right-3 md:-right-5 bg-yellow-400 rounded-full p-2">
                 <div className="  outline-[#BD1F17] rounded-full outline-dashed p-2">
                   <span className="text-black font-semibold">
                     TODAY
